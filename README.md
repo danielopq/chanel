@@ -17,13 +17,12 @@ Exercise for a Chanel products website. It is optimized for desktop and mobile u
 
 ### Screenshot
 
-![screenshot/desktop.jpg]
-![screenshot/mobile.jpg]
+- Desktop version: [https://github.com/danielopq/chanel/blob/main/screenshots/desktop.jpg]
+- Mobile version: [https://github.com/danielopq/chanel/blob/main/screenshots/mobile.jpg]
 
 
 ### Links
 
-- Solution URL: [index.html]
 - Live Site URL: [https://danielmartinez.co.uk/chanel]
 
 ## My process
