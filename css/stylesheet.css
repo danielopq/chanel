@@ -18,6 +18,7 @@ body {
 
 main {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
@@ -27,9 +28,13 @@ main {
 h1 {
 	font: 32px/1 'Fraunces';
 	color: #1C232B;
+	padding: 0px;
+	margin: 0px;
 }
 
-p {
+p{
+	padding: 0px;
+	margin: 0px;
 	font-family: 'Montserrat';
 	color: hsl(228, 12%, 48%);
 }
@@ -43,12 +48,15 @@ p {
 #product-desc {
 	width: 300px;
 	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	background-color: white;
 }
 
 #product-desc>div {
-	margin-left: 30px;
-	margin-right: 30px;
+	width: 236px;
 }
 
 #item-type {
@@ -62,16 +70,12 @@ p {
 	height: 96px;
 	margin-top: 20px;
 	font: 34px 'Fraunces';
-	font: 14px/23px 'Montserrat';
 }
 
 #item-desc{
 	height: 92px;
 	margin-top: 24px;
-}
-
-#item-desc>p {
-	font-size: 15px;
+	font: 14px/23px'Montserrat';
 }
 
 #item-price {
@@ -88,7 +92,7 @@ p {
 
 #old-price {
 	margin-left: 20px;
-	font: 13px 'Montserrat';
+	font: 14px 'Montserrat';
 	text-decoration: line-through;
 	color: hsl(228, 12%, 48%);
 }
@@ -119,7 +123,7 @@ p {
 }
 
 #button-text {
-	font: 14px 'Montserrat';
+	font: bold 14px 'Montserrat';
 	color: white;
 }
 
@@ -129,35 +133,44 @@ p {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
 
-	article {
-		flex-wrap: wrap;
+	main {
+		flex-direction: column;
 	}
 
 	#product-img {
+		width: 343px;
 		height: 240px;
-		width: 340px;
-		border-radius: 10px 10px 0px 0px;
-		background-image: url("../images/image-product-mobile.jpg");
 	}
-
+	
 	#product-desc {
-		height: 370px;
-		width: 340px;
-		border-radius: 0px 0px 10px 10px;
+		width: 343px;
+		height: 371px;
 	}
-
+	
+	#product-desc>div {
+		width: 295px;
+	}
+	
+	#item-type {
+		margin-top: 24px;
+	}
+	
 	#item-name {
-		font-size: 30px;
+		height: 64px;
+		margin-top: 12px;
 	}
-
+	
+	#item-desc{
+		margin-top: 16px;
+	}
+	
 	#item-price {
-		margin-top: 15px;
+		margin-top: 24px;
 	}
 
 	#item-button {
-		margin-top: 15px;
-		width: 290px;
+		margin-top: 20px;
 	}
 }
