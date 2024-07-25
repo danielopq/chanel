@@ -22,7 +22,7 @@ p{
 	color: hsl(228, 12%, 48%);
 }
 
-article{
+main{
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -117,11 +117,6 @@ section{
 	
 	article{
 		flex-wrap: wrap;
-	}
-	
-	section{
-		margin-left: 25px;
-		margin-right: 25px;
 	}
 	
 	#product-img{
