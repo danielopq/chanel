@@ -7,18 +7,17 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
 
-Exercise for a Chanel products website. It is optimized for both desktop and mobile users. The elements have been arranged according to the provided images. The website is built using HTML and CSS.
+    Frontend development for a Chanel product card component.
 
 ### Screenshot
 
-- Desktop version: [https://github.com/danielopq/chanel/blob/main/screenshots/desktop.jpg]
-- Mobile version: [https://github.com/danielopq/chanel/blob/main/screenshots/mobile.jpg]
+- [Desktop version](https://github.com/danielopq/chanel/blob/main/screenshots/desktop.jpg)
+- [Mobile version](https://github.com/danielopq/chanel/blob/main/screenshots/mobile.jpg)
 
 
 ### Links
@@ -27,7 +26,7 @@ Exercise for a Chanel products website. It is optimized for both desktop and mob
 
 ## My process
 
-I created the website entirely for the desktop version. Once all of the elements were in place and met the design requirements, I adapted it to the mobile version using just a CSS media query.
+I initially created the website for the desktop version. Once all elements were in place and met the design requirements, I adapted it for mobile using only a CSS media query.
 
 ### Built with
 
